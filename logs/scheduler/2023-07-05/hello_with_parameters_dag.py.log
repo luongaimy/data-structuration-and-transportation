@@ -576,3 +576,94 @@
 [2023-07-05T14:42:22.690+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:22.690+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-07-05T14:42:22.731+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:22.731+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
 [2023-07-05T14:42:22.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.149 seconds
+[2023-07-05T14:42:52.866+0000] {processor.py:157} INFO - Started process (PID=1005) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:42:52.868+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:42:52.870+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:52.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:42:52.885+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:42:52.926+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:52.926+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:42:52.963+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:52.963+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:42:52.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.126 seconds
+[2023-07-05T14:43:23.214+0000] {processor.py:157} INFO - Started process (PID=1023) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:43:23.217+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:43:23.220+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:23.220+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:43:23.240+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:43:23.289+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:23.289+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:43:23.327+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:23.327+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:43:23.370+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.165 seconds
+[2023-07-05T14:43:53.557+0000] {processor.py:157} INFO - Started process (PID=1041) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:43:53.560+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:43:53.562+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:53.562+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:43:53.582+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:43:53.626+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:53.626+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:43:53.662+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:53.662+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:43:53.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.140 seconds
+[2023-07-05T14:44:24.005+0000] {processor.py:157} INFO - Started process (PID=1059) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:44:24.010+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:44:24.014+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:24.013+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:44:24.066+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:44:24.149+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:24.149+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:44:24.202+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:24.202+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:44:24.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.254 seconds
+[2023-07-05T14:44:54.766+0000] {processor.py:157} INFO - Started process (PID=1077) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:44:54.768+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:44:54.770+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:54.770+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:44:54.789+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:44:54.833+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:54.832+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:44:54.870+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:54.869+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:44:54.897+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.137 seconds
+[2023-07-05T14:45:25.298+0000] {processor.py:157} INFO - Started process (PID=1099) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:45:25.301+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:45:25.303+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:25.303+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:45:25.319+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:45:25.364+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:25.364+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:45:25.404+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:25.403+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:45:25.433+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.140 seconds
+[2023-07-05T14:45:55.488+0000] {processor.py:157} INFO - Started process (PID=1117) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:45:55.491+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:45:55.493+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:55.493+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:45:55.510+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:45:55.557+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:55.557+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:45:55.594+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:55.594+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:45:55.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.143 seconds
+[2023-07-05T14:46:25.793+0000] {processor.py:157} INFO - Started process (PID=1135) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:46:25.795+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:46:25.797+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:25.797+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:46:25.813+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:46:25.857+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:25.857+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:46:25.891+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:25.891+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:46:25.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.129 seconds
+[2023-07-05T14:46:56.045+0000] {processor.py:157} INFO - Started process (PID=1153) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:46:56.048+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:46:56.052+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:56.051+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:46:56.076+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:46:56.135+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:56.135+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:46:56.184+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:56.184+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:46:56.216+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.178 seconds
+[2023-07-05T14:47:26.553+0000] {processor.py:157} INFO - Started process (PID=1171) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:47:26.560+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:47:26.567+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:26.566+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:47:26.614+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:47:26.690+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:26.689+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:47:26.742+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:26.742+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:47:26.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.240 seconds
+[2023-07-05T14:47:56.846+0000] {processor.py:157} INFO - Started process (PID=1188) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:47:56.850+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:47:56.852+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:56.852+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:47:56.866+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:47:56.908+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:56.908+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:47:56.942+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:56.941+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:47:56.967+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.126 seconds
+[2023-07-05T14:48:27.136+0000] {processor.py:157} INFO - Started process (PID=1206) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:48:27.147+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:48:27.150+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:27.150+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:48:27.166+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:48:27.207+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:27.206+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:48:27.240+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:27.240+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:48:27.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.138 seconds
+[2023-07-05T14:48:57.440+0000] {processor.py:157} INFO - Started process (PID=1225) to work on /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:48:57.446+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_parameters_dag.py for tasks to queue
+[2023-07-05T14:48:57.450+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:57.450+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:48:57.473+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_parameters_dag']) retrieved from /opt/airflow/dags/hello_with_parameters_dag.py
+[2023-07-05T14:48:57.522+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:57.522+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:48:57.557+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:57.557+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_parameters_dag to None, run_after=None
+[2023-07-05T14:48:57.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_parameters_dag.py took 0.153 seconds

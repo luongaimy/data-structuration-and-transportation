@@ -569,3 +569,94 @@
 [2023-07-05T14:42:30.545+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:30.545+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-07-05T14:42:30.578+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:42:30.578+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
 [2023-07-05T14:42:30.602+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.128 seconds
+[2023-07-05T14:43:00.860+0000] {processor.py:157} INFO - Started process (PID=1013) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:43:00.863+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:43:00.865+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:00.865+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:43:00.884+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:43:00.934+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:00.934+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:43:00.972+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:00.972+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:43:01.004+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.149 seconds
+[2023-07-05T14:43:31.155+0000] {processor.py:157} INFO - Started process (PID=1031) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:43:31.157+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:43:31.159+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:31.159+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:43:31.177+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:43:31.220+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:31.219+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:43:31.256+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:43:31.256+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:43:31.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.128 seconds
+[2023-07-05T14:44:01.549+0000] {processor.py:157} INFO - Started process (PID=1049) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:44:01.552+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:44:01.555+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:01.554+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:44:01.574+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:44:01.620+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:01.620+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:44:01.702+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:01.701+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:44:01.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.192 seconds
+[2023-07-05T14:44:32.023+0000] {processor.py:157} INFO - Started process (PID=1067) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:44:32.027+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:44:32.031+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:32.031+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:44:32.060+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:44:32.251+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:32.251+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:44:32.400+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:44:32.400+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:44:32.509+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.504 seconds
+[2023-07-05T14:45:02.870+0000] {processor.py:157} INFO - Started process (PID=1089) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:45:02.875+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:45:02.879+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:02.878+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:45:02.904+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:45:02.963+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:02.963+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:45:03.017+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:03.017+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:45:03.044+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.188 seconds
+[2023-07-05T14:45:33.138+0000] {processor.py:157} INFO - Started process (PID=1107) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:45:33.141+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:45:33.143+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:33.143+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:45:33.161+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:45:33.208+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:33.207+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:45:33.244+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:45:33.243+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:45:33.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.140 seconds
+[2023-07-05T14:46:03.429+0000] {processor.py:157} INFO - Started process (PID=1125) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:46:03.432+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:46:03.434+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:03.433+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:46:03.453+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:46:03.494+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:03.494+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:46:03.529+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:03.529+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:46:03.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.128 seconds
+[2023-07-05T14:46:34.667+0000] {processor.py:157} INFO - Started process (PID=1143) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:46:34.669+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:46:34.671+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:34.671+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:46:34.688+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:46:34.730+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:34.730+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:46:34.763+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:46:34.763+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:46:34.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.125 seconds
+[2023-07-05T14:47:04.991+0000] {processor.py:157} INFO - Started process (PID=1161) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:47:04.994+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:47:04.996+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:04.996+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:47:05.014+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:47:05.060+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:05.060+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:47:05.100+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:05.100+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:47:05.131+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.145 seconds
+[2023-07-05T14:47:35.300+0000] {processor.py:157} INFO - Started process (PID=1179) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:47:35.302+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:47:35.304+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:35.304+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:47:35.324+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:47:35.367+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:35.367+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:47:35.403+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:47:35.402+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:47:35.428+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.133 seconds
+[2023-07-05T14:48:05.603+0000] {processor.py:157} INFO - Started process (PID=1196) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:48:05.605+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:48:05.607+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:05.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:48:05.623+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:48:05.678+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:05.678+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:48:05.711+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:05.710+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:48:05.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.141 seconds
+[2023-07-05T14:48:35.992+0000] {processor.py:157} INFO - Started process (PID=1214) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:48:35.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:48:36.006+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:36.006+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:48:36.034+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:48:36.080+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:36.079+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:48:36.124+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:48:36.124+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:48:36.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.162 seconds
+[2023-07-05T14:49:06.268+0000] {processor.py:157} INFO - Started process (PID=1233) to work on /opt/airflow/dags/exercise15.py
+[2023-07-05T14:49:06.271+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise15.py for tasks to queue
+[2023-07-05T14:49:06.274+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:06.273+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:49:06.298+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise15']) retrieved from /opt/airflow/dags/exercise15.py
+[2023-07-05T14:49:06.341+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:06.341+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:49:06.375+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:06.375+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise15 to None, run_after=None
+[2023-07-05T14:49:06.400+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise15.py took 0.138 seconds

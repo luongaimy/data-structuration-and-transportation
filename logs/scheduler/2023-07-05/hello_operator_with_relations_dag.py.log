@@ -1,0 +1,221 @@
+[2023-07-05T13:43:57.543+0000] {processor.py:157} INFO - Started process (PID=34) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:43:57.549+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:43:57.557+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:43:57.556+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:43:57.681+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:43:59.626+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:43:59.625+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:hello_operator_with_relations_dag
+[2023-07-05T13:43:59.687+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:43:59.687+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:hello_operator_with_relations_dag
+[2023-07-05T13:43:59.726+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:43:59.725+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:hello_operator_with_relations_dag
+[2023-07-05T13:43:59.842+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:43:59.836+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:43:59.969+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:43:59.969+0000] {dag.py:2747} INFO - Creating ORM DAG for hello_operator_with_relations_dag
+[2023-07-05T13:44:00.192+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:44:00.191+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:44:00.396+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 2.863 seconds
+[2023-07-05T13:44:36.062+0000] {processor.py:157} INFO - Started process (PID=57) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:44:36.079+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:44:36.170+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:44:36.169+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:44:36.408+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:44:37.693+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:44:37.685+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:44:40.132+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:44:40.131+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:44:41.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 5.310 seconds
+[2023-07-05T13:45:13.366+0000] {processor.py:157} INFO - Started process (PID=73) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:45:13.389+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:45:13.485+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:45:13.484+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:45:13.536+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:45:14.470+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:45:14.469+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:45:15.156+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:45:15.156+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:45:15.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 2.118 seconds
+[2023-07-05T13:45:45.645+0000] {processor.py:157} INFO - Started process (PID=90) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:45:45.651+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:45:45.660+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:45:45.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:45:45.732+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:45:46.026+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:45:46.025+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:45:46.095+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:45:46.095+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:45:46.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.568 seconds
+[2023-07-05T13:46:16.853+0000] {processor.py:157} INFO - Started process (PID=107) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:46:16.857+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:46:16.865+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:46:16.865+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:46:16.913+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:46:16.954+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:46:16.954+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:46:16.987+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:46:16.987+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:46:17.012+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.173 seconds
+[2023-07-05T13:46:47.126+0000] {processor.py:157} INFO - Started process (PID=124) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:46:47.129+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:46:47.135+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:46:47.135+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:46:47.157+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:46:47.215+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:46:47.214+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:46:47.252+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:46:47.252+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:46:47.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.159 seconds
+[2023-07-05T13:47:17.357+0000] {processor.py:157} INFO - Started process (PID=141) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:47:17.362+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:47:17.368+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:47:17.367+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:47:17.390+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:47:17.450+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:47:17.449+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:47:17.491+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:47:17.491+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:47:17.529+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.178 seconds
+[2023-07-05T13:47:47.757+0000] {processor.py:157} INFO - Started process (PID=158) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:47:47.760+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:47:47.765+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:47:47.765+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:47:47.782+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:47:47.833+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:47:47.833+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:47:47.874+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:47:47.873+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:47:47.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.158 seconds
+[2023-07-05T13:48:18.037+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:48:18.040+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:48:18.045+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:48:18.045+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:48:18.064+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:48:18.110+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:48:18.109+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:48:18.147+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:48:18.147+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:48:18.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.150 seconds
+[2023-07-05T13:48:48.378+0000] {processor.py:157} INFO - Started process (PID=192) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:48:48.399+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:48:48.431+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:48:48.430+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:48:48.496+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:48:48.666+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:48:48.665+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:48:48.782+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:48:48.782+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:48:48.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.524 seconds
+[2023-07-05T13:49:19.518+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:49:19.530+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:49:19.542+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:49:19.542+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:49:19.573+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:49:19.649+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:49:19.649+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:49:19.717+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:49:19.717+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:49:19.765+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.257 seconds
+[2023-07-05T13:49:50.102+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:49:50.109+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:49:50.123+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:49:50.122+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:49:50.174+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:49:50.278+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:49:50.277+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:49:50.322+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:49:50.321+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:49:50.350+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.255 seconds
+[2023-07-05T13:50:20.534+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:50:20.537+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:50:20.549+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:50:20.548+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:50:20.573+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:50:20.661+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:50:20.660+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:50:20.720+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:50:20.720+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:50:20.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.238 seconds
+[2023-07-05T13:50:50.968+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:50:50.973+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:50:50.981+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:50:50.981+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:50:51.021+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:50:51.111+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:50:51.110+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:50:51.162+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:50:51.162+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:50:51.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.259 seconds
+[2023-07-05T13:51:22.067+0000] {processor.py:157} INFO - Started process (PID=276) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:51:22.069+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:51:22.073+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:51:22.072+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:51:22.092+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:51:22.143+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:51:22.142+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:51:22.183+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:51:22.183+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:51:22.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.159 seconds
+[2023-07-05T13:51:52.465+0000] {processor.py:157} INFO - Started process (PID=293) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:51:52.469+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:51:52.476+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:51:52.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:51:52.501+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:51:52.556+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:51:52.556+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:51:52.606+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:51:52.606+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:51:52.645+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.186 seconds
+[2023-07-05T13:52:22.718+0000] {processor.py:157} INFO - Started process (PID=310) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:52:22.722+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:52:22.730+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:52:22.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:52:22.753+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:52:22.834+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:52:22.834+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:52:22.887+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:52:22.887+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:52:22.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.208 seconds
+[2023-07-05T13:52:53.087+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:52:53.091+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:52:53.097+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:52:53.097+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:52:53.119+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:52:53.164+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:52:53.164+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:52:53.198+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:52:53.198+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:52:53.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.148 seconds
+[2023-07-05T13:53:24.037+0000] {processor.py:157} INFO - Started process (PID=344) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:53:24.040+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:53:24.048+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:53:24.048+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:53:24.063+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:53:24.105+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:53:24.104+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:53:24.142+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:53:24.142+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:53:24.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.140 seconds
+[2023-07-05T13:53:54.300+0000] {processor.py:157} INFO - Started process (PID=361) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:53:54.303+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:53:54.307+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:53:54.306+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:53:54.323+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:53:54.364+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:53:54.363+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:53:54.398+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:53:54.398+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:53:54.426+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.130 seconds
+[2023-07-05T13:54:24.579+0000] {processor.py:157} INFO - Started process (PID=378) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:54:24.582+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:54:24.588+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:54:24.587+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:54:24.608+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:54:24.661+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:54:24.660+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:54:24.706+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:54:24.705+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:54:24.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.171 seconds
+[2023-07-05T13:54:55.616+0000] {processor.py:157} INFO - Started process (PID=395) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:54:55.619+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:54:55.624+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:54:55.624+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:54:55.638+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:54:55.680+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:54:55.680+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:54:55.714+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:54:55.714+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:54:55.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.132 seconds
+[2023-07-05T13:55:26.739+0000] {processor.py:157} INFO - Started process (PID=414) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:55:26.746+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:55:26.752+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:55:26.751+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:55:26.785+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:55:26.853+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:55:26.852+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:55:26.898+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:55:26.898+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:55:26.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.211 seconds
+[2023-07-05T13:55:57.175+0000] {processor.py:157} INFO - Started process (PID=432) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:55:57.179+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:55:57.184+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:55:57.184+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:55:57.220+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:55:57.284+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:55:57.284+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:55:57.324+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:55:57.324+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:55:57.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.191 seconds
+[2023-07-05T13:56:28.274+0000] {processor.py:157} INFO - Started process (PID=450) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:56:28.277+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:56:28.280+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:56:28.280+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:56:28.304+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:56:28.364+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:56:28.364+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:56:28.412+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:56:28.412+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:56:28.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.181 seconds
+[2023-07-05T13:56:58.532+0000] {processor.py:157} INFO - Started process (PID=467) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:56:58.535+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:56:58.537+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:56:58.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:56:58.554+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:56:58.598+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:56:58.598+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:56:58.634+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:56:58.634+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:56:58.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.135 seconds
+[2023-07-05T13:57:29.645+0000] {processor.py:157} INFO - Started process (PID=484) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:57:29.650+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T13:57:29.653+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:57:29.652+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:57:29.675+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T13:57:29.734+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:57:29.734+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T13:57:29.771+0000] {logging_mixin.py:149} INFO - [2023-07-05T13:57:29.770+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T13:57:29.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.170 seconds
+[2023-07-05T14:15:27.948+0000] {processor.py:157} INFO - Started process (PID=34) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:15:27.954+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T14:15:27.957+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:15:27.957+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:15:27.974+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:15:28.213+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:15:28.213+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:15:28.258+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:15:28.258+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T14:15:28.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.370 seconds
+[2023-07-05T14:15:58.599+0000] {processor.py:157} INFO - Started process (PID=50) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:15:58.601+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T14:15:58.607+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:15:58.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:15:58.627+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:15:58.676+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:15:58.675+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:15:58.713+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:15:58.713+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T14:15:58.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.145 seconds
+[2023-07-05T14:16:31.486+0000] {processor.py:157} INFO - Started process (PID=66) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:16:31.492+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T14:16:31.504+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:16:31.503+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:16:31.560+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:16:31.678+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:16:31.676+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:16:31.771+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:16:31.771+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T14:16:31.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.419 seconds
+[2023-07-05T14:17:02.135+0000] {processor.py:157} INFO - Started process (PID=82) to work on /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:17:02.139+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_operator_with_relations_dag.py for tasks to queue
+[2023-07-05T14:17:02.142+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:17:02.142+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:17:02.158+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_operator_with_relations_dag']) retrieved from /opt/airflow/dags/hello_operator_with_relations_dag.py
+[2023-07-05T14:17:02.205+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:17:02.205+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:17:02.243+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:17:02.243+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_operator_with_relations_dag to None, run_after=None
+[2023-07-05T14:17:02.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_operator_with_relations_dag.py took 0.139 seconds

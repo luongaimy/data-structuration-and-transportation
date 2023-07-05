@@ -1686,3 +1686,403 @@ File Path                                               PID    Runtime      # DA
 /opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.16s           2023-07-05T14:48:27
 /opt/airflow/dags/reading.py                                                     1           0  0.19s           2023-07-05T14:48:35
 ================================================================================
+[2023-07-05T14:49:19.489+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.16s           2023-07-05T14:49:06
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:49:06
+/opt/airflow/dags/exercise17.py                                                  1           0  0.18s           2023-07-05T14:48:55
+/opt/airflow/dags/exercise18.py                                                  1           0  0.20s           2023-07-05T14:49:06
+/opt/airflow/dags/hello.py                                                       1           0  0.17s           2023-07-05T14:49:01
+/opt/airflow/dags/hello_operator.py                                              1           0  0.18s           2023-07-05T14:49:01
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.30s           2023-07-05T14:48:58
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.32s           2023-07-05T14:48:58
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.19s           2023-07-05T14:48:57
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.20s           2023-07-05T14:48:57
+/opt/airflow/dags/reading.py                                                     1           0  0.18s           2023-07-05T14:49:06
+================================================================================
+[2023-07-05T14:49:49.845+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.16s           2023-07-05T14:49:36
+/opt/airflow/dags/exercise16.py                                                  1           0  0.19s           2023-07-05T14:49:36
+/opt/airflow/dags/exercise17.py                                                  1           0  0.17s           2023-07-05T14:49:25
+/opt/airflow/dags/exercise18.py                                                  1           0  0.28s           2023-07-05T14:49:36
+/opt/airflow/dags/hello.py                                                       1           0  0.22s           2023-07-05T14:49:31
+/opt/airflow/dags/hello_operator.py                                              1           0  0.23s           2023-07-05T14:49:31
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:49:29
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.15s           2023-07-05T14:49:29
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.18s           2023-07-05T14:49:27
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.18s           2023-07-05T14:49:27
+/opt/airflow/dags/reading.py                                                     1           0  0.32s           2023-07-05T14:49:36
+================================================================================
+[2023-07-05T14:50:20.131+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.16s           2023-07-05T14:50:07
+/opt/airflow/dags/exercise16.py                                                  1           0  0.18s           2023-07-05T14:50:07
+/opt/airflow/dags/exercise17.py                                                  1           0  0.18s           2023-07-05T14:49:56
+/opt/airflow/dags/exercise18.py                                                  1           0  0.17s           2023-07-05T14:50:07
+/opt/airflow/dags/hello.py                                                       1           0  0.15s           2023-07-05T14:50:01
+/opt/airflow/dags/hello_operator.py                                              1           0  0.16s           2023-07-05T14:50:01
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.17s           2023-07-05T14:49:59
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.18s           2023-07-05T14:49:59
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.21s           2023-07-05T14:49:58
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.21s           2023-07-05T14:49:58
+/opt/airflow/dags/reading.py                                                     1           0  0.16s           2023-07-05T14:50:06
+================================================================================
+[2023-07-05T14:50:28.371+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-05T14:50:28.430+0000] {manager.py:761} INFO - There are 11 files in /opt/airflow/dags
+[2023-07-05T14:50:50.366+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.15s           2023-07-05T14:50:37
+/opt/airflow/dags/exercise16.py                                                  1           0  0.16s           2023-07-05T14:50:37
+/opt/airflow/dags/exercise17.py                                                  1           0  0.16s           2023-07-05T14:50:26
+/opt/airflow/dags/exercise18.py                                                  1           0  0.18s           2023-07-05T14:50:37
+/opt/airflow/dags/hello.py                                                       1           0  0.20s           2023-07-05T14:50:31
+/opt/airflow/dags/hello_operator.py                                              1           0  0.20s           2023-07-05T14:50:31
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:50:29
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.15s           2023-07-05T14:50:29
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.15s           2023-07-05T14:50:28
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.16s           2023-07-05T14:50:28
+/opt/airflow/dags/reading.py                                                     1           0  0.16s           2023-07-05T14:50:37
+================================================================================
+[2023-07-05T14:51:20.574+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.15s           2023-07-05T14:51:07
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:51:07
+/opt/airflow/dags/exercise17.py                                                  1           0  0.20s           2023-07-05T14:50:56
+/opt/airflow/dags/exercise18.py                                                  1           0  0.16s           2023-07-05T14:51:07
+/opt/airflow/dags/hello.py                                                       1           0  0.17s           2023-07-05T14:51:02
+/opt/airflow/dags/hello_operator.py                                              1           0  0.18s           2023-07-05T14:51:02
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.18s           2023-07-05T14:51:00
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.18s           2023-07-05T14:51:00
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.23s           2023-07-05T14:50:58
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.22s           2023-07-05T14:50:58
+/opt/airflow/dags/reading.py                                                     1           0  0.15s           2023-07-05T14:51:07
+================================================================================
+[2023-07-05T14:51:51.147+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.23s           2023-07-05T14:51:38
+/opt/airflow/dags/exercise16.py                                                  1           0  0.24s           2023-07-05T14:51:38
+/opt/airflow/dags/exercise17.py                                                  1           0  0.20s           2023-07-05T14:51:26
+/opt/airflow/dags/exercise18.py                                                  1           0  0.35s           2023-07-05T14:51:37
+/opt/airflow/dags/hello.py                                                       1           0  0.23s           2023-07-05T14:51:32
+/opt/airflow/dags/hello_operator.py                                              1           0  0.23s           2023-07-05T14:51:32
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.18s           2023-07-05T14:51:30
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.19s           2023-07-05T14:51:30
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.16s           2023-07-05T14:51:29
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.16s           2023-07-05T14:51:29
+/opt/airflow/dags/reading.py                                                     1           0  0.28s           2023-07-05T14:51:37
+================================================================================
+[2023-07-05T14:52:21.488+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.19s           2023-07-05T14:52:08
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:52:08
+/opt/airflow/dags/exercise17.py                                                  1           0  0.17s           2023-07-05T14:51:57
+/opt/airflow/dags/exercise18.py                                                  1           0  0.20s           2023-07-05T14:52:08
+/opt/airflow/dags/hello.py                                                       1           0  0.17s           2023-07-05T14:52:02
+/opt/airflow/dags/hello_operator.py                                              1           0  0.18s           2023-07-05T14:52:02
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:52:00
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.16s           2023-07-05T14:52:00
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.16s           2023-07-05T14:51:59
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:51:59
+/opt/airflow/dags/reading.py                                                     1           0  0.18s           2023-07-05T14:52:08
+================================================================================
+[2023-07-05T14:52:51.843+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.26s           2023-07-05T14:52:43
+/opt/airflow/dags/exercise16.py                                                  1           0  0.31s           2023-07-05T14:52:42
+/opt/airflow/dags/exercise17.py                                                  1           0  0.17s           2023-07-05T14:52:27
+/opt/airflow/dags/exercise18.py                                                  1           0  1.82s           2023-07-05T14:52:42
+/opt/airflow/dags/hello.py                                                       1           0  0.15s           2023-07-05T14:52:32
+/opt/airflow/dags/hello_operator.py                                              1           0  0.15s           2023-07-05T14:52:32
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.17s           2023-07-05T14:52:30
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.18s           2023-07-05T14:52:30
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.16s           2023-07-05T14:52:29
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.16s           2023-07-05T14:52:29
+/opt/airflow/dags/reading.py                                                     1           0  2.98s           2023-07-05T14:52:42
+================================================================================
+[2023-07-05T14:53:22.314+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.18s           2023-07-05T14:53:13
+/opt/airflow/dags/exercise16.py                                                  1           0  0.16s           2023-07-05T14:53:13
+/opt/airflow/dags/exercise17.py                                                  1           0  0.21s           2023-07-05T14:52:58
+/opt/airflow/dags/exercise18.py                                                  1           0  0.23s           2023-07-05T14:53:13
+/opt/airflow/dags/hello.py                                                       1           0  0.23s           2023-07-05T14:53:03
+/opt/airflow/dags/hello_operator.py                                              1           0  0.24s           2023-07-05T14:53:03
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.42s           2023-07-05T14:53:01
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.46s           2023-07-05T14:53:01
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.17s           2023-07-05T14:53:00
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.19s           2023-07-05T14:53:00
+/opt/airflow/dags/reading.py                                                     1           0  0.23s           2023-07-05T14:53:13
+================================================================================
+[2023-07-05T14:53:52.540+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.17s           2023-07-05T14:53:44
+/opt/airflow/dags/exercise16.py                                                  1           0  0.20s           2023-07-05T14:53:44
+/opt/airflow/dags/exercise17.py                                                  1           0  0.17s           2023-07-05T14:53:28
+/opt/airflow/dags/exercise18.py                                                  1           0  0.22s           2023-07-05T14:53:44
+/opt/airflow/dags/hello.py                                                       1           0  0.16s           2023-07-05T14:53:33
+/opt/airflow/dags/hello_operator.py                                              1           0  0.16s           2023-07-05T14:53:33
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:53:32
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.16s           2023-07-05T14:53:32
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.15s           2023-07-05T14:53:30
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:53:30
+/opt/airflow/dags/reading.py                                                     1           0  0.21s           2023-07-05T14:53:44
+================================================================================
+[2023-07-05T14:54:23.133+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.20s           2023-07-05T14:54:15
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:54:15
+/opt/airflow/dags/exercise17.py                                                  1           0  0.20s           2023-07-05T14:53:58
+/opt/airflow/dags/exercise18.py                                                  1           0  0.25s           2023-07-05T14:54:14
+/opt/airflow/dags/hello.py                                                       1           0  0.17s           2023-07-05T14:54:04
+/opt/airflow/dags/hello_operator.py                                              1           0  0.17s           2023-07-05T14:54:04
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.17s           2023-07-05T14:54:03
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.17s           2023-07-05T14:54:03
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.28s           2023-07-05T14:54:01
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.29s           2023-07-05T14:54:01
+/opt/airflow/dags/reading.py                                                     1           0  0.26s           2023-07-05T14:54:14
+================================================================================
+[2023-07-05T14:54:53.604+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.17s           2023-07-05T14:54:45
+/opt/airflow/dags/exercise16.py                                                  1           0  0.18s           2023-07-05T14:54:45
+/opt/airflow/dags/exercise17.py                                                  1           0  0.19s           2023-07-05T14:54:29
+/opt/airflow/dags/exercise18.py                                                  1           0  0.28s           2023-07-05T14:54:45
+/opt/airflow/dags/hello.py                                                       1           0  0.16s           2023-07-05T14:54:34
+/opt/airflow/dags/hello_operator.py                                              1           0  0.17s           2023-07-05T14:54:34
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:54:33
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.17s           2023-07-05T14:54:33
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.18s           2023-07-05T14:54:31
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.19s           2023-07-05T14:54:31
+/opt/airflow/dags/reading.py                                                     1           0  0.26s           2023-07-05T14:54:45
+================================================================================
+[2023-07-05T14:55:23.963+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.20s           2023-07-05T14:55:15
+/opt/airflow/dags/exercise16.py                                                  1           0  0.18s           2023-07-05T14:55:15
+/opt/airflow/dags/exercise17.py                                                  1           0  0.27s           2023-07-05T14:54:59
+/opt/airflow/dags/exercise18.py                                                  1           0  0.17s           2023-07-05T14:55:15
+/opt/airflow/dags/hello.py                                                       1           0  0.22s           2023-07-05T14:55:05
+/opt/airflow/dags/hello_operator.py                                              1           0  0.23s           2023-07-05T14:55:05
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:55:04
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.16s           2023-07-05T14:55:04
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.19s           2023-07-05T14:55:02
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.20s           2023-07-05T14:55:02
+/opt/airflow/dags/reading.py                                                     1           0  0.28s           2023-07-05T14:54:59
+================================================================================
+[2023-07-05T14:55:29.007+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-05T14:55:29.068+0000] {manager.py:761} INFO - There are 11 files in /opt/airflow/dags
+[2023-07-05T14:55:54.468+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.15s           2023-07-05T14:55:46
+/opt/airflow/dags/exercise16.py                                                  1           0  0.15s           2023-07-05T14:55:46
+/opt/airflow/dags/exercise17.py                                                  1           0  0.31s           2023-07-05T14:55:30
+/opt/airflow/dags/exercise18.py                                                  1           0  0.18s           2023-07-05T14:55:46
+/opt/airflow/dags/hello.py                                                       1           0  0.25s           2023-07-05T14:55:35
+/opt/airflow/dags/hello_operator.py                                              1           0  0.25s           2023-07-05T14:55:35
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.24s           2023-07-05T14:55:34
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.24s           2023-07-05T14:55:34
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.16s           2023-07-05T14:55:32
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:55:32
+/opt/airflow/dags/reading.py                                                     1           0  0.30s           2023-07-05T14:55:30
+================================================================================
+[2023-07-05T14:56:24.760+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.18s           2023-07-05T14:56:16
+/opt/airflow/dags/exercise16.py                                                  1           0  0.20s           2023-07-05T14:56:16
+/opt/airflow/dags/exercise17.py                                                  1           0  0.19s           2023-07-05T14:56:00
+/opt/airflow/dags/exercise18.py                                                  1           0  0.24s           2023-07-05T14:56:16
+/opt/airflow/dags/hello.py                                                       1           0  0.17s           2023-07-05T14:56:06
+/opt/airflow/dags/hello_operator.py                                              1           0  0.17s           2023-07-05T14:56:06
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.18s           2023-07-05T14:56:05
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.18s           2023-07-05T14:56:05
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.21s           2023-07-05T14:56:02
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.21s           2023-07-05T14:56:02
+/opt/airflow/dags/reading.py                                                     1           0  0.22s           2023-07-05T14:56:00
+================================================================================
+[2023-07-05T14:56:55.183+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.15s           2023-07-05T14:56:47
+/opt/airflow/dags/exercise16.py                                                  1           0  0.19s           2023-07-05T14:56:47
+/opt/airflow/dags/exercise17.py                                                  1           0  0.19s           2023-07-05T14:56:31
+/opt/airflow/dags/exercise18.py                                                  1           0  0.20s           2023-07-05T14:56:47
+/opt/airflow/dags/hello.py                                                       1           0  0.34s           2023-07-05T14:56:36
+/opt/airflow/dags/hello_operator.py                                              1           0  0.33s           2023-07-05T14:56:36
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.22s           2023-07-05T14:56:35
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.20s           2023-07-05T14:56:35
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.15s           2023-07-05T14:56:33
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:56:33
+/opt/airflow/dags/reading.py                                                     1           0  0.18s           2023-07-05T14:56:31
+================================================================================
+[2023-07-05T14:57:25.495+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.16s           2023-07-05T14:57:17
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:57:17
+/opt/airflow/dags/exercise17.py                                                  1           0  0.24s           2023-07-05T14:57:01
+/opt/airflow/dags/exercise18.py                                                  1           0  0.20s           2023-07-05T14:57:17
+/opt/airflow/dags/hello.py                                                       1           0  0.17s           2023-07-05T14:57:07
+/opt/airflow/dags/hello_operator.py                                              1           0  0.17s           2023-07-05T14:57:07
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.20s           2023-07-05T14:57:05
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.21s           2023-07-05T14:57:05
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.17s           2023-07-05T14:57:03
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:57:03
+/opt/airflow/dags/reading.py                                                     1           0  0.23s           2023-07-05T14:57:01
+================================================================================
+[2023-07-05T14:57:55.899+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.47s           2023-07-05T14:57:48
+/opt/airflow/dags/exercise16.py                                                  1           0  0.24s           2023-07-05T14:57:47
+/opt/airflow/dags/exercise17.py                                                  1           0  0.19s           2023-07-05T14:57:31
+/opt/airflow/dags/exercise18.py                                                  1           0  0.27s           2023-07-05T14:57:47
+/opt/airflow/dags/hello.py                                                       1           0  0.16s           2023-07-05T14:57:37
+/opt/airflow/dags/hello_operator.py                                              1           0  0.17s           2023-07-05T14:57:37
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.23s           2023-07-05T14:57:36
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.23s           2023-07-05T14:57:36
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.16s           2023-07-05T14:57:33
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:57:33
+/opt/airflow/dags/reading.py                                                     1           0  0.19s           2023-07-05T14:57:31
+================================================================================
+[2023-07-05T14:58:26.272+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.17s           2023-07-05T14:58:19
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:58:18
+/opt/airflow/dags/exercise17.py                                                  1           0  0.21s           2023-07-05T14:58:02
+/opt/airflow/dags/exercise18.py                                                  1           0  0.19s           2023-07-05T14:58:18
+/opt/airflow/dags/hello.py                                                       1           0  0.24s           2023-07-05T14:58:07
+/opt/airflow/dags/hello_operator.py                                              1           0  0.26s           2023-07-05T14:58:07
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.32s           2023-07-05T14:58:06
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.35s           2023-07-05T14:58:06
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.25s           2023-07-05T14:58:04
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.29s           2023-07-05T14:58:04
+/opt/airflow/dags/reading.py                                                     1           0  0.21s           2023-07-05T14:58:02
+================================================================================
+[2023-07-05T14:58:56.608+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.27s           2023-07-05T14:58:49
+/opt/airflow/dags/exercise16.py                                                  1           0  0.26s           2023-07-05T14:58:48
+/opt/airflow/dags/exercise17.py                                                  1           0  0.20s           2023-07-05T14:58:32
+/opt/airflow/dags/exercise18.py                                                  1           0  0.25s           2023-07-05T14:58:48
+/opt/airflow/dags/hello.py                                                       1           0  0.18s           2023-07-05T14:58:38
+/opt/airflow/dags/hello_operator.py                                              1           0  0.17s           2023-07-05T14:58:38
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.15s           2023-07-05T14:58:37
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.18s           2023-07-05T14:58:37
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.15s           2023-07-05T14:58:34
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.16s           2023-07-05T14:58:34
+/opt/airflow/dags/reading.py                                                     1           0  0.19s           2023-07-05T14:58:32
+================================================================================
+[2023-07-05T14:59:26.783+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.15s           2023-07-05T14:59:20
+/opt/airflow/dags/exercise16.py                                                  1           0  0.17s           2023-07-05T14:59:18
+/opt/airflow/dags/exercise17.py                                                  1           0  0.21s           2023-07-05T14:59:02
+/opt/airflow/dags/exercise18.py                                                  1           0  0.19s           2023-07-05T14:59:18
+/opt/airflow/dags/hello.py                                                       1           0  0.15s           2023-07-05T14:59:08
+/opt/airflow/dags/hello_operator.py                                              1           0  0.15s           2023-07-05T14:59:08
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:59:08
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.16s           2023-07-05T14:59:08
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.17s           2023-07-05T14:59:05
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:59:05
+/opt/airflow/dags/reading.py                                                     1           0  0.21s           2023-07-05T14:59:02
+================================================================================
+[2023-07-05T14:59:45.861+0000] {manager.py:1134} WARNING - Skipping processing of missing file: /opt/airflow/dags/reading.py
+[2023-07-05T14:59:57.197+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/exercise15.py                                                  1           0  0.26s           2023-07-05T14:59:51
+/opt/airflow/dags/exercise16.py                                                  1           0  0.21s           2023-07-05T14:59:49
+/opt/airflow/dags/exercise17.py                                                  1           0  0.17s           2023-07-05T14:59:33
+/opt/airflow/dags/exercise18.py                                                  1           0  0.23s           2023-07-05T14:59:49
+/opt/airflow/dags/hello.py                                                       1           0  0.15s           2023-07-05T14:59:38
+/opt/airflow/dags/hello_operator.py                                              1           0  0.15s           2023-07-05T14:59:38
+/opt/airflow/dags/hello_operator_with_relations_dag.py                           1           0  0.16s           2023-07-05T14:59:38
+/opt/airflow/dags/hello_with_multiple_outputs_dag.py                             1           0  0.16s           2023-07-05T14:59:38
+/opt/airflow/dags/hello_with_parameters_dag.py                                   1           0  0.15s           2023-07-05T14:59:35
+/opt/airflow/dags/hello_with_passing_data_dag.py                                 1           0  0.17s           2023-07-05T14:59:35
+================================================================================

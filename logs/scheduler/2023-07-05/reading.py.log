@@ -547,3 +547,150 @@ NameError: name 'to_seconds_since_epoch' is not defined
 [2023-07-05T14:49:06.123+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:06.123+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-07-05T14:49:06.161+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:06.161+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
 [2023-07-05T14:49:06.189+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.153 seconds
+[2023-07-05T14:49:36.250+0000] {processor.py:157} INFO - Started process (PID=1248) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:49:36.255+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:49:36.273+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:36.272+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:49:36.299+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:49:36.367+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:36.367+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:49:36.422+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:49:36.422+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:49:36.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.270 seconds
+[2023-07-05T14:50:06.708+0000] {processor.py:157} INFO - Started process (PID=1266) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:50:06.712+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:50:06.714+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:50:06.714+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:50:06.734+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:50:06.772+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:50:06.771+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:50:06.805+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:50:06.805+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:50:06.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.125 seconds
+[2023-07-05T14:50:36.936+0000] {processor.py:157} INFO - Started process (PID=1284) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:50:36.939+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:50:36.941+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:50:36.941+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:50:36.961+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:50:37.001+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:50:37.001+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:50:37.035+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:50:37.035+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:50:37.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.129 seconds
+[2023-07-05T14:51:07.155+0000] {processor.py:157} INFO - Started process (PID=1302) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:51:07.158+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:51:07.160+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:51:07.160+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:51:07.178+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:51:07.215+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:51:07.215+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:51:07.248+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:51:07.248+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:51:07.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.123 seconds
+[2023-07-05T14:51:37.523+0000] {processor.py:157} INFO - Started process (PID=1320) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:51:37.528+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:51:37.531+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:51:37.531+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:51:37.555+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:51:37.626+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:51:37.626+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:51:37.688+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:51:37.688+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:51:37.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.224 seconds
+[2023-07-05T14:52:07.857+0000] {processor.py:157} INFO - Started process (PID=1338) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:52:07.860+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:52:07.863+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:52:07.862+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:52:07.882+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:52:07.924+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:52:07.923+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:52:07.965+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:52:07.965+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:52:07.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.145 seconds
+[2023-07-05T14:52:40.839+0000] {processor.py:157} INFO - Started process (PID=1356) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:52:40.995+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:52:41.078+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:52:41.075+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:52:41.433+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:52:42.011+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:52:42.009+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:52:42.293+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:52:42.293+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:52:42.373+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 1.720 seconds
+[2023-07-05T14:53:12.866+0000] {processor.py:157} INFO - Started process (PID=1375) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:53:12.873+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:53:12.878+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:53:12.877+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:53:12.921+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:53:12.979+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:53:12.979+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:53:13.016+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:53:13.015+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:53:13.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.187 seconds
+[2023-07-05T14:53:44.080+0000] {processor.py:157} INFO - Started process (PID=1393) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:53:44.083+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:53:44.086+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:53:44.085+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:53:44.109+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:53:44.163+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:53:44.162+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:53:44.206+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:53:44.206+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:53:44.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.171 seconds
+[2023-07-05T14:54:14.675+0000] {processor.py:157} INFO - Started process (PID=1411) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:54:14.679+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:54:14.687+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:14.686+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:54:14.737+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:54:14.805+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:14.805+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:54:14.845+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:14.844+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:54:14.874+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.212 seconds
+[2023-07-05T14:54:45.096+0000] {processor.py:157} INFO - Started process (PID=1429) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:54:45.101+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:54:45.104+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:45.104+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:54:45.146+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:54:45.219+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:45.219+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:54:45.276+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:45.276+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:54:45.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.227 seconds
+[2023-07-05T14:54:59.694+0000] {processor.py:157} INFO - Started process (PID=1440) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:54:59.699+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:54:59.708+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:59.708+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:54:59.775+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:54:59.831+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:59.830+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:54:59.881+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:54:59.881+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:54:59.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.244 seconds
+[2023-07-05T14:55:30.119+0000] {processor.py:157} INFO - Started process (PID=1458) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:55:30.127+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:55:30.129+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:55:30.129+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:55:30.150+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:55:30.207+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:55:30.207+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:55:30.345+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:55:30.345+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:55:30.382+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.269 seconds
+[2023-07-05T14:56:00.559+0000] {processor.py:157} INFO - Started process (PID=1475) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:56:00.562+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:56:00.564+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:56:00.564+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:56:00.593+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:56:00.652+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:56:00.652+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:56:00.688+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:56:00.688+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:56:00.723+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.174 seconds
+[2023-07-05T14:56:30.855+0000] {processor.py:157} INFO - Started process (PID=1493) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:56:30.858+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:56:30.860+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:56:30.860+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:56:30.878+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:56:30.927+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:56:30.927+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:56:30.972+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:56:30.972+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:56:31.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.151 seconds
+[2023-07-05T14:57:01.274+0000] {processor.py:157} INFO - Started process (PID=1511) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:57:01.278+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:57:01.280+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:57:01.280+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:57:01.318+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:57:01.387+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:57:01.386+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:57:01.441+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:57:01.441+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:57:01.469+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.200 seconds
+[2023-07-05T14:57:31.577+0000] {processor.py:157} INFO - Started process (PID=1529) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:57:31.581+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:57:31.583+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:57:31.583+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:57:31.607+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:57:31.659+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:57:31.659+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:57:31.698+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:57:31.698+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:57:31.725+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.154 seconds
+[2023-07-05T14:58:01.989+0000] {processor.py:157} INFO - Started process (PID=1547) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:58:01.992+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:58:01.995+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:58:01.995+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:58:02.021+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:58:02.084+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:58:02.084+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:58:02.123+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:58:02.122+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:58:02.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.165 seconds
+[2023-07-05T14:58:32.370+0000] {processor.py:157} INFO - Started process (PID=1565) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:58:32.372+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:58:32.374+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:58:32.373+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:58:32.394+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:58:32.446+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:58:32.446+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:58:32.492+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:58:32.491+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:58:32.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.155 seconds
+[2023-07-05T14:59:02.698+0000] {processor.py:157} INFO - Started process (PID=1583) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:59:02.704+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:59:02.708+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:02.708+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:59:02.736+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:59:02.796+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:02.795+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:59:02.833+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:02.833+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:59:02.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.169 seconds
+[2023-07-05T14:59:32.962+0000] {processor.py:157} INFO - Started process (PID=1601) to work on /opt/airflow/dags/reading.py
+[2023-07-05T14:59:32.964+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/reading.py for tasks to queue
+[2023-07-05T14:59:32.966+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:32.966+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/reading.py
+[2023-07-05T14:59:32.985+0000] {processor.py:836} INFO - DAG(s) dict_keys(['opensky_data_dag']) retrieved from /opt/airflow/dags/reading.py
+[2023-07-05T14:59:33.026+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:33.026+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T14:59:33.060+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:33.060+0000] {dag.py:3490} INFO - Setting next_dagrun for opensky_data_dag to None, run_after=None
+[2023-07-05T14:59:33.085+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reading.py took 0.128 seconds

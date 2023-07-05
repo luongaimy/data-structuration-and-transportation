@@ -1,8 +1,3 @@
-# Ai-My LUONG and Ronnel MARTINEZ
-
-# reads data from the OpenSky API, for example all flights leaving CDG airport on 2022-12-01
-# outputs it as a string
-
 from airflow import DAG
 from airflow.decorators import dag, task
 from airflow.operators.python_operator import PythonOperator
@@ -40,7 +35,7 @@ def opensky_data_dag():
     
     @task
     def write_to_json(flights_string):
-        output_dir = os.path.dirname(os.path.abspath(_file_))
+        output_dir = os.path.dirname(os.path.abspath(__file__))
         output_file = "flight_data.json"
     
         output_path = os.path.join(output_dir, output_file)
@@ -50,7 +45,6 @@ def opensky_data_dag():
     
         return output_path
 
-    
     flights_data = retrieve_flight_data()
     print_flight_data(flights_data)
     write_task = write_to_json(flights_data)

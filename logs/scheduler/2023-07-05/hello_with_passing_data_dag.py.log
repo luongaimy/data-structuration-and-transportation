@@ -821,3 +821,185 @@
 [2023-07-05T15:00:05.567+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:05.566+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-07-05T15:00:05.602+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:05.602+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
 [2023-07-05T15:00:05.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.134 seconds
+[2023-07-05T15:00:35.771+0000] {processor.py:157} INFO - Started process (PID=1639) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:00:35.773+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:00:35.777+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:35.777+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:00:35.803+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:00:35.867+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:35.867+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:00:35.922+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:35.921+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:00:35.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.196 seconds
+[2023-07-05T15:01:06.050+0000] {processor.py:157} INFO - Started process (PID=1657) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:01:06.052+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:01:06.055+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:06.055+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:01:06.073+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:01:06.116+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:06.116+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:01:06.150+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:06.149+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:01:06.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.130 seconds
+[2023-07-05T15:01:36.337+0000] {processor.py:157} INFO - Started process (PID=1675) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:01:36.344+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:01:36.348+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:36.348+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:01:36.381+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:01:36.461+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:36.460+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:01:36.511+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:36.511+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:01:36.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.214 seconds
+[2023-07-05T15:02:06.612+0000] {processor.py:157} INFO - Started process (PID=1693) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:02:06.616+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:02:06.618+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:06.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:02:06.637+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:02:06.693+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:06.693+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:02:06.731+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:06.731+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:02:06.758+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.153 seconds
+[2023-07-05T15:02:36.914+0000] {processor.py:157} INFO - Started process (PID=1711) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:02:36.916+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:02:36.919+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:36.918+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:02:36.943+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:02:36.995+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:36.995+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:02:37.035+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:37.035+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:02:37.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.165 seconds
+[2023-07-05T15:03:07.250+0000] {processor.py:157} INFO - Started process (PID=1729) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:03:07.255+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:03:07.258+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:07.257+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:03:07.276+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:03:07.325+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:07.325+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:03:07.362+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:07.362+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:03:07.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.143 seconds
+[2023-07-05T15:03:37.541+0000] {processor.py:157} INFO - Started process (PID=1748) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:03:37.545+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:03:37.547+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:37.547+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:03:37.565+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:03:37.615+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:37.615+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:03:37.657+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:37.657+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:03:37.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.151 seconds
+[2023-07-05T15:04:07.844+0000] {processor.py:157} INFO - Started process (PID=1766) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:04:07.847+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:04:07.850+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:07.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:04:07.865+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:04:07.907+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:07.907+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:04:07.944+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:07.943+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:04:07.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.134 seconds
+[2023-07-05T15:04:38.141+0000] {processor.py:157} INFO - Started process (PID=1784) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:04:38.144+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:04:38.146+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:38.146+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:04:38.163+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:04:38.208+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:38.208+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:04:38.242+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:38.242+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:04:38.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.131 seconds
+[2023-07-05T15:05:08.445+0000] {processor.py:157} INFO - Started process (PID=1802) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:05:08.448+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:05:08.451+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:08.450+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:05:08.475+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:05:08.524+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:08.524+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:05:08.565+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:08.565+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:05:08.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.154 seconds
+[2023-07-05T15:05:38.781+0000] {processor.py:157} INFO - Started process (PID=1820) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:05:38.786+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:05:38.792+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:38.791+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:05:38.847+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:05:38.933+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:38.933+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:05:38.985+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:38.985+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:05:39.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.254 seconds
+[2023-07-05T15:06:09.454+0000] {processor.py:157} INFO - Started process (PID=1838) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:06:09.457+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:06:09.459+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:09.459+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:06:09.497+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:06:09.560+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:09.560+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:06:09.622+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:09.622+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:06:09.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.203 seconds
+[2023-07-05T15:06:39.732+0000] {processor.py:157} INFO - Started process (PID=1856) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:06:39.737+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:06:39.741+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:39.740+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:06:39.769+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:06:39.835+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:39.834+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:06:39.917+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:39.917+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:06:39.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.237 seconds
+[2023-07-05T15:07:10.057+0000] {processor.py:157} INFO - Started process (PID=1874) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:07:10.063+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:07:10.069+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:10.068+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:07:10.104+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:07:10.168+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:10.168+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:07:10.208+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:10.208+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:07:10.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.187 seconds
+[2023-07-05T15:07:40.357+0000] {processor.py:157} INFO - Started process (PID=1893) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:07:40.360+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:07:40.367+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:40.366+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:07:40.384+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:07:40.425+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:40.425+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:07:40.459+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:40.459+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:07:40.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.135 seconds
+[2023-07-05T15:08:10.575+0000] {processor.py:157} INFO - Started process (PID=1911) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:08:10.578+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:08:10.581+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:10.581+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:08:10.599+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:08:10.649+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:10.648+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:08:10.689+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:10.689+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:08:10.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.148 seconds
+[2023-07-05T15:08:40.888+0000] {processor.py:157} INFO - Started process (PID=1930) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:08:40.891+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:08:40.893+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:40.892+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:08:40.910+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:08:40.953+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:40.953+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:08:40.988+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:40.988+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:08:41.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.133 seconds
+[2023-07-05T15:09:11.296+0000] {processor.py:157} INFO - Started process (PID=1952) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:09:11.310+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:09:11.312+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:11.312+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:09:11.360+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:09:11.521+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:11.520+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:09:11.573+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:11.573+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:09:11.630+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.362 seconds
+[2023-07-05T15:09:41.795+0000] {processor.py:157} INFO - Started process (PID=1970) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:09:41.798+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:09:41.802+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:41.802+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:09:41.823+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:09:41.881+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:41.881+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:09:41.927+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:41.926+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:09:41.960+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.170 seconds
+[2023-07-05T15:10:12.099+0000] {processor.py:157} INFO - Started process (PID=1988) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:10:12.102+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:10:12.105+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:12.104+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:10:12.126+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:10:12.181+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:12.181+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:10:12.224+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:12.224+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:10:12.257+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.164 seconds
+[2023-07-05T15:10:42.497+0000] {processor.py:157} INFO - Started process (PID=2006) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:10:42.503+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:10:42.513+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:42.512+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:10:42.547+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:10:42.606+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:42.606+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:10:42.653+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:42.653+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:10:42.694+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.208 seconds
+[2023-07-05T15:11:12.775+0000] {processor.py:157} INFO - Started process (PID=2024) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:11:12.778+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:11:12.783+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:12.783+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:11:12.805+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:11:12.872+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:12.871+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:11:12.913+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:12.913+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:11:12.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.174 seconds
+[2023-07-05T15:11:43.024+0000] {processor.py:157} INFO - Started process (PID=2042) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:11:43.028+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:11:43.030+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:43.030+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:11:43.046+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:11:43.092+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:43.092+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:11:43.133+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:43.132+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:11:43.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.142 seconds
+[2023-07-05T15:12:13.496+0000] {processor.py:157} INFO - Started process (PID=2060) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:12:13.499+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:12:13.501+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:13.501+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:12:13.519+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:12:13.564+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:13.563+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:12:13.598+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:13.598+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:12:13.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.134 seconds
+[2023-07-05T15:12:43.894+0000] {processor.py:157} INFO - Started process (PID=2078) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:12:43.898+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:12:43.901+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:43.901+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:12:43.920+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:12:43.970+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:43.970+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:12:44.005+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:44.005+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:12:44.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.142 seconds
+[2023-07-05T15:13:14.569+0000] {processor.py:157} INFO - Started process (PID=2096) to work on /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:13:14.572+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/hello_with_passing_data_dag.py for tasks to queue
+[2023-07-05T15:13:14.575+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:13:14.574+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:13:14.592+0000] {processor.py:836} INFO - DAG(s) dict_keys(['hello_with_passing_data_dag']) retrieved from /opt/airflow/dags/hello_with_passing_data_dag.py
+[2023-07-05T15:13:14.635+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:13:14.634+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:13:14.668+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:13:14.668+0000] {dag.py:3490} INFO - Setting next_dagrun for hello_with_passing_data_dag to None, run_after=None
+[2023-07-05T15:13:14.694+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/hello_with_passing_data_dag.py took 0.131 seconds

@@ -2417,3 +2417,549 @@ jinja2.exceptions.TemplateNotFound: sql/create_table.sql
 [2023-07-05T14:59:49.039+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:49.038+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-07-05T14:59:49.081+0000] {logging_mixin.py:149} INFO - [2023-07-05T14:59:49.081+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
 [2023-07-05T14:59:49.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.188 seconds
+[2023-07-05T15:00:19.278+0000] {processor.py:157} INFO - Started process (PID=1627) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:00:19.282+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:00:19.286+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:19.285+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:00:19.318+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:19.316+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:00:19.323+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:19.323+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:00:19.330+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:00:19.400+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:19.400+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:00:19.446+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:19.446+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:00:19.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.209 seconds
+[2023-07-05T15:00:49.576+0000] {processor.py:157} INFO - Started process (PID=1645) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:00:49.579+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:00:49.582+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:49.581+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:00:49.602+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:49.601+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:00:49.605+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:49.605+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:00:49.610+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:00:49.653+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:49.652+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:00:49.693+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:00:49.693+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:00:49.723+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.152 seconds
+[2023-07-05T15:01:20.728+0000] {processor.py:157} INFO - Started process (PID=1663) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:01:20.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:01:20.737+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:20.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:01:20.757+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:20.756+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:01:20.761+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:20.761+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:01:20.765+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:01:20.832+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:20.832+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:01:20.872+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:20.872+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:01:20.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.180 seconds
+[2023-07-05T15:01:50.992+0000] {processor.py:157} INFO - Started process (PID=1681) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:01:51.005+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:01:51.018+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:51.013+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:01:51.046+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:51.045+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:01:51.050+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:51.049+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:01:51.055+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:01:51.107+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:51.107+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:01:51.145+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:01:51.145+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:01:51.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.199 seconds
+[2023-07-05T15:02:21.372+0000] {processor.py:157} INFO - Started process (PID=1699) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:02:21.374+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:02:21.377+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:21.377+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:02:21.395+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:21.393+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:02:21.398+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:21.398+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:02:21.402+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:02:21.443+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:21.443+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:02:21.478+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:21.478+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:02:21.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.138 seconds
+[2023-07-05T15:02:51.633+0000] {processor.py:157} INFO - Started process (PID=1717) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:02:51.640+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:02:51.644+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:51.644+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:02:51.677+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:51.674+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:02:51.680+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:51.680+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:02:51.687+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:02:51.749+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:51.749+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:02:51.807+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:02:51.807+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:02:51.838+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.212 seconds
+[2023-07-05T15:03:21.998+0000] {processor.py:157} INFO - Started process (PID=1735) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:03:22.002+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:03:22.006+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:22.006+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:03:22.035+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:22.033+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:03:22.038+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:22.037+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:03:22.042+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:03:22.080+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:22.080+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:03:22.114+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:22.114+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:03:22.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.147 seconds
+[2023-07-05T15:03:52.284+0000] {processor.py:157} INFO - Started process (PID=1754) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:03:52.287+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:03:52.290+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:52.289+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:03:52.313+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:52.311+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:03:52.316+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:52.315+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:03:52.320+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:03:52.361+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:52.361+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:03:52.396+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:03:52.395+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:03:52.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.145 seconds
+[2023-07-05T15:04:22.476+0000] {processor.py:157} INFO - Started process (PID=1772) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:04:22.479+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:04:22.481+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:22.481+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:04:22.505+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:22.503+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:04:22.507+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:22.507+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:04:22.511+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:04:22.554+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:22.554+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:04:22.589+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:22.589+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:04:22.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.144 seconds
+[2023-07-05T15:04:52.782+0000] {processor.py:157} INFO - Started process (PID=1790) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:04:52.785+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:04:52.787+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:52.787+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:04:52.807+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:52.805+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:04:52.809+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:52.809+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:04:52.813+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:04:52.855+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:52.855+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:04:52.889+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:04:52.889+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:04:52.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.136 seconds
+[2023-07-05T15:05:23.104+0000] {processor.py:157} INFO - Started process (PID=1808) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:05:23.107+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:05:23.109+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:23.108+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:05:23.127+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:23.126+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:05:23.130+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:23.129+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:05:23.135+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:05:23.178+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:23.178+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:05:23.224+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:23.223+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:05:23.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.167 seconds
+[2023-07-05T15:05:53.624+0000] {processor.py:157} INFO - Started process (PID=1833) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:05:53.633+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:05:53.635+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:53.635+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:05:53.663+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:53.661+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:05:53.665+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:53.665+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:05:53.680+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:05:53.733+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:53.733+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:05:53.794+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:05:53.793+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:05:53.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.236 seconds
+[2023-07-05T15:06:24.166+0000] {processor.py:157} INFO - Started process (PID=1851) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:06:24.177+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:06:24.185+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:24.184+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:06:24.221+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:24.220+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:06:24.224+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:24.224+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:06:24.229+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:06:24.279+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:24.279+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:06:24.316+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:24.316+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:06:24.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.187 seconds
+[2023-07-05T15:06:54.589+0000] {processor.py:157} INFO - Started process (PID=1870) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:06:54.592+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:06:54.595+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:54.594+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:06:54.621+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:54.620+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:06:54.624+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:54.624+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:06:54.631+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:06:54.672+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:54.672+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:06:54.707+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:06:54.707+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:06:54.732+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.148 seconds
+[2023-07-05T15:07:24.798+0000] {processor.py:157} INFO - Started process (PID=1888) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:07:24.801+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:07:24.803+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:24.803+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:07:24.825+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:24.824+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:07:24.828+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:24.827+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:07:24.832+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:07:24.876+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:24.876+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:07:24.919+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:24.919+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:07:24.971+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.179 seconds
+[2023-07-05T15:07:55.051+0000] {processor.py:157} INFO - Started process (PID=1906) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:07:55.055+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:07:55.058+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:55.058+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:07:55.088+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:55.086+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:07:55.091+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:55.091+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:07:55.098+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:07:55.157+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:55.157+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:07:55.201+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:07:55.201+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:07:55.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.199 seconds
+[2023-07-05T15:08:25.454+0000] {processor.py:157} INFO - Started process (PID=1926) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:08:25.460+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:08:25.465+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:25.464+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:08:25.496+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:25.494+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:08:25.500+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:25.499+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:08:25.506+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:08:25.561+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:25.561+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:08:25.600+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:25.599+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:08:25.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.192 seconds
+[2023-07-05T15:08:55.714+0000] {processor.py:157} INFO - Started process (PID=1944) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:08:55.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:08:55.736+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:55.735+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:08:55.761+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:55.759+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:08:55.765+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:55.764+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:08:55.772+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:08:55.828+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:55.827+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:08:55.899+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:08:55.898+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:08:55.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.237 seconds
+[2023-07-05T15:09:26.343+0000] {processor.py:157} INFO - Started process (PID=1966) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:09:26.346+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:09:26.349+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:26.349+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:09:26.390+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:26.385+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:09:26.394+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:26.393+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:09:26.398+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:09:26.446+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:26.446+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:09:26.485+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:26.485+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:09:26.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.174 seconds
+[2023-07-05T15:09:56.621+0000] {processor.py:157} INFO - Started process (PID=1984) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:09:56.625+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:09:56.629+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:56.628+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:09:56.652+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:56.651+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:09:56.656+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:56.656+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:09:56.660+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:09:56.700+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:56.700+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:09:56.736+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:09:56.736+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:09:56.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.145 seconds
+[2023-07-05T15:10:26.820+0000] {processor.py:157} INFO - Started process (PID=2002) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:10:26.823+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:10:26.825+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:26.825+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:10:26.846+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:26.845+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:10:26.849+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:26.849+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:10:26.853+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:10:26.897+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:26.897+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:10:26.933+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:26.933+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:10:26.961+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.147 seconds
+[2023-07-05T15:10:57.160+0000] {processor.py:157} INFO - Started process (PID=2020) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:10:57.163+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:10:57.165+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:57.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:10:57.184+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:57.182+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:10:57.186+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:57.186+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:10:57.190+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:10:57.230+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:57.230+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:10:57.264+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:10:57.264+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:10:57.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.133 seconds
+[2023-07-05T15:11:27.531+0000] {processor.py:157} INFO - Started process (PID=2038) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:11:27.534+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:11:27.536+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:27.536+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:11:27.558+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:27.556+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:11:27.561+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:27.560+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:11:27.564+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:11:27.605+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:27.605+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:11:27.641+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:27.641+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:11:27.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.139 seconds
+[2023-07-05T15:11:58.034+0000] {processor.py:157} INFO - Started process (PID=2056) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:11:58.037+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:11:58.040+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:58.040+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:11:58.062+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:58.061+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:11:58.065+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:58.065+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:11:58.070+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:11:58.113+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:58.113+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:11:58.152+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:11:58.152+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:11:58.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.164 seconds
+[2023-07-05T15:12:28.323+0000] {processor.py:157} INFO - Started process (PID=2075) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:12:28.326+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:12:28.330+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:28.329+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:12:28.360+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:28.359+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:12:28.366+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:28.365+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:12:28.373+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:12:28.452+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:28.452+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:12:28.555+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:28.555+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:12:28.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.308 seconds
+[2023-07-05T15:12:58.991+0000] {processor.py:157} INFO - Started process (PID=2092) to work on /opt/airflow/dags/exercise18.py
+[2023-07-05T15:12:58.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/exercise18.py for tasks to queue
+[2023-07-05T15:12:59.007+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:59.006+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:12:59.047+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:59.044+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/drop_table.sql
+[2023-07-05T15:12:59.054+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:59.053+0000] {templater.py:77} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/template/templater.py", line 75, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: sql/create_table.sql
+[2023-07-05T15:12:59.062+0000] {processor.py:836} INFO - DAG(s) dict_keys(['exercise18']) retrieved from /opt/airflow/dags/exercise18.py
+[2023-07-05T15:12:59.140+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:59.140+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T15:12:59.202+0000] {logging_mixin.py:149} INFO - [2023-07-05T15:12:59.202+0000] {dag.py:3490} INFO - Setting next_dagrun for exercise18 to None, run_after=None
+[2023-07-05T15:12:59.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/exercise18.py took 0.260 seconds
